@@ -29,7 +29,7 @@ def main():
     df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
 
         # Display the DataFrame as a data table
-     st.write(df)
+    st.write(df)
 
     if __name__ == "__main__":
         main()
