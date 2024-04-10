@@ -44,7 +44,7 @@ def main2():
         # Display the DataFrame as a data table
     st.write(df)
     
-if __name__ == "__main__":
+if __name__ == "__main2__":
     main2()
 
 def bar():
