@@ -28,42 +28,7 @@ def render_cybersalaries():
     st.title("About Page")
     st.write("This is the about page content.")
     st.code("""
-    # Another Python code example
-    def add(a, b):
-        return a + b
-    
-    result = add(3, 5)
-    print("Result:", result)
-    """)
-
-# Function to render Contact page content
-def render_contact():
-    st.title("Contact Page")
-    st.write("This is the contact page content.")
-    st.code("""
-    # Yet another Python code example
-    def multiply(a, b):
-        return a * b
-    
-    result = multiply(4, 6)
-    print("Result:", result)
-    """)
-
-# Create a sidebar navigation
-nav_selection = st.sidebar.radio("Navigate", ["Home", "Cyber Salaries", "Contact"])
-
-# Render the selected page
-if nav_selection == "Home":
-    render_home()
-elif nav_selection == "About":
-    render_cybersalaries()
-elif nav_selection == "Contact":
-    render_contact()
-
-
-def main():
-    st.title('Cyber Security Salaries')
-
+    def main():
     # URL of the raw CSV file on GitHub
     csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
@@ -122,3 +87,32 @@ def bar2():
 
 if __name__ == "__main__":
     bar2()
+    
+    """)
+
+# Function to render Contact page content
+def render_contact():
+    st.title("Contact Page")
+    st.write("This is the contact page content.")
+    st.code("""
+    # Yet another Python code example
+    def multiply(a, b):
+        return a * b
+    
+    result = multiply(4, 6)
+    print("Result:", result)
+    """)
+
+# Create a sidebar navigation
+nav_selection = st.sidebar.radio("Navigate", ["Home", "Cyber Salaries", "Contact"])
+
+# Render the selected page
+if nav_selection == "Home":
+    render_home()
+elif nav_selection == "About":
+    render_cybersalaries()
+elif nav_selection == "Contact":
+    render_contact()
+
+
+
