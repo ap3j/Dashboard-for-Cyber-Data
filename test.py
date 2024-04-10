@@ -45,8 +45,6 @@ def main2():
         # Display the DataFrame as a data table
     st.write(df)
 
-if __name__ == "__main__":
-    main2()
 
 def bar():
     st.title('Salary By Experience')
@@ -68,8 +66,6 @@ def bar():
     # Display the plot in Streamlit
     st.pyplot(fig)
 
-if __name__ == "__main__":
-    bar()
 
 def bar2():
     st.title('Salary By Job Title Top 5')
@@ -92,8 +88,7 @@ def bar2():
     # Display the plot in Streamlit
     st.pyplot(fig)
 
-if __name__ == "__main__":
-    bar2()
+
     
 # Function to render Contact page content
 
