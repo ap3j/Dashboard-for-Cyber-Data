@@ -32,20 +32,20 @@ def render_cybersalaries():
     st.title("Cyber Salaries")
     st.write("Salary Graphs and Visualizations Below")
   
-def main2():
-    st.title('Cyber Salaries')
+    def main2():
+        st.title('Cyber Salaries')
     
     # URL of the raw CSV file on GitHub
-    csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
+        csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+        df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
 
         # Display the DataFrame as a data table
-    st.write(df)
+        st.write(df)
     
     if __name__ == "__main__":
-        main2()
+     main2()
 
 def bar():
     st.title('Salary By Experience')
