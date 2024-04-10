@@ -10,8 +10,19 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 
 """
 
-csv_url = 'https://github.com/ap3j/streamlit123/blob/main/salaries_cyber.csv'
+def main():
+    st.title('CSV Data Table')
 
-data = pd.read_csv(csv_url, na_values=['NA', ''])
+    # URL of the raw CSV file on GitHub
+    csv_url = 'https://github.com/ap3j/streamlit123/blob/main/salaries_cyber.csv'
 
-print(data)
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv(csv_url)
+
+    # Display the DataFrame as a data table
+    st.write(df)
+
+if __name__ == "__main__":
+    main()
+
+
