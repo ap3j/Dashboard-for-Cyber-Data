@@ -31,31 +31,31 @@ def render_cybersalaries():
         # Display the DataFrame as a data table
         st.write(df)
 
-    if __name__ == "__main__":
-    main()
+        if __name__ == "__main__":
+        main()
 
-def bar():
-    st.title('Salary By Experience')
+    def bar():
+        st.title('Salary By Experience')
     
     # Sample data
-    data = {
-        'Category': ['EN', 'MI', 'SN', 'EX'],
-        'Value': [63579, 103337, 144560, 200706]
-    }
+        data = {
+            'Category': ['EN', 'MI', 'SN', 'EX'],
+            'Value': [63579, 103337, 144560, 200706]
+        }
 
     # Create DataFrame
-    df_topsal = pd.DataFrame(data)
+        df_topsal = pd.DataFrame(data)
 
     # Create Seaborn bar plot
-    fig, ax = plt.subplots()
-    sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
-    ax.set_title('Bar Plot')
+        fig, ax = plt.subplots()
+        sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
+        ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
-    st.pyplot(fig)
+        st.pyplot(fig)
 
-if __name__ == "__main__":
-    bar()
+    if __name__ == "__main__":
+        bar()
 
 def bar2():
     st.title('Salary By Job Title Top 5')
