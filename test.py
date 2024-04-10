@@ -11,4 +11,4 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 """
 csv_url = 'https://github.com/ap3j/streamlit123/blob/main/salaries_cyber.csv'
 
-data = pd.read_csv_(csv_url)
+data = pd.read_csv(csv_url)
