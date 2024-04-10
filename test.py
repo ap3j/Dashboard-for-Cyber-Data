@@ -30,7 +30,7 @@ def render_home():
 # Function to render About page content
 def render_cybersalaries():
     st.title("Cyber Salaries")
-    st.write("This is the about page content.")
+    st.write("Salary Graphs and Visualizations Below")
   
 def main2():
     st.title('Cyber Salaries')
