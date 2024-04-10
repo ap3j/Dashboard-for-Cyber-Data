@@ -61,7 +61,7 @@ def bar2():
     }
 
     # Create DataFrame
-    df_topsal5 = pd.DataFrame(data)
+    df_topsal15 = pd.DataFrame(data)
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
