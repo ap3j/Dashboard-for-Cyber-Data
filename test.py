@@ -24,9 +24,6 @@ def main1():
     elif page == "Contact Page":
         render_contact()
         
-if __name__ == "__main__":
-    main1()
-
 def render_home():
     st.title("Home Page")
     st.write("This is the home page content.")
@@ -103,6 +100,9 @@ if __name__ == "__main__":
 def render_contact():
     st.title("Contact Page")
     st.write("Contact me at ap3j@mtmail.mtsu.edu")
+
+if __name__ == "__main__":
+    main1()
    
 
 
