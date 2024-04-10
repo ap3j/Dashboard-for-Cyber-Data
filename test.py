@@ -15,7 +15,7 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 
 def main1():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact"])
+    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact Page"])
 
     if page == "Home Page":
         render_home()
