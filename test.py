@@ -25,4 +25,11 @@ def main():
 if __name__ == "__main__":
     main()
 
+sns.barplot(data=df_topsal_exp_avgsort, x='salary_in_usd', y="experience_level", 
+order=df_topsal_exp_avgsort['experience_level'], color='r')
+plt.title('Salary By Experience Level',fontweight='bold',fontsize='18',horizontalalignment='center')
+plt.xlabel('Salary', fontweight='bold',fontsize='14',horizontalalignment='center')
+plt.ylabel('Experience',fontweight='bold',fontsize='14',horizontalalignment='center')
+plt.xticks(size = 5)
+
 
