@@ -22,6 +22,8 @@ def render_cybersalaries():
     st.write("This is the about page content.")
   
 def main():
+    st.title('Cyber Salaries')
+    
     # URL of the raw CSV file on GitHub
     csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
