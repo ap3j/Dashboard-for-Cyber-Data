@@ -52,7 +52,7 @@ def bar():
     ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
-     st.pyplot(fig)
+    st.pyplot(fig)
 
     if __name__ == "__main__":
         bar()
