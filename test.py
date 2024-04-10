@@ -50,10 +50,15 @@ def render_contact():
     """)
 
 # Create a sidebar navigation
-nav_selection = st.sidebar.selectbox("Navigate", ["Home", "About", "Contact"])
+nav_selection = st.sidebar.radio("Navigate", ["Home", "About", "Contact"])
 
 # Render the selected page
-render_page(nav_selection)
+if nav_selection == "Home":
+    render_home()
+elif nav_selection == "About":
+    render_about()
+elif nav_selection == "Contact":
+    render_contact()
 
 
 def main():
