@@ -11,7 +11,7 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 """
 
 def main():
-    st.title('CSV Data Table')
+    st.title('Cyber Security Salaries')
 
     # URL of the raw CSV file on GitHub
     csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
@@ -25,11 +25,27 @@ def main():
 if __name__ == "__main__":
     main()
 
-sns.barplot(data=df_topsal_exp_avgsort, x='salary_in_usd', y="experience_level", 
-order=df_topsal_exp_avgsort['experience_level'], color='r')
-plt.title('Salary By Experience Level',fontweight='bold',fontsize='18',horizontalalignment='center')
-plt.xlabel('Salary', fontweight='bold',fontsize='14',horizontalalignment='center')
-plt.ylabel('Experience',fontweight='bold',fontsize='14',horizontalalignment='center')
-plt.xticks(size = 5)
+def main():
+    st.title('Salary By Experience')
+    
+    # Sample data
+    data = {
+        'Category': ['A', 'B', 'C', 'D'],
+        'Value': [10, 20, 15, 25]
+    }
+
+    # Create DataFrame
+    df = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+    fig, ax = plt.subplots()
+    sns.barplot(x='Category', y='Value', data=df, ax=ax)
+    ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+    st.pyplot(fig)
+
+if __name__ == "__main__":
+    main()
 
 
