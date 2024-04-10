@@ -65,7 +65,7 @@ def bar2():
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
-    sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
+    sns.barplot(x='Category', y='Value', data=df_topsal15, ax=ax)
     ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
