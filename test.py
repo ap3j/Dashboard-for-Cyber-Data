@@ -14,7 +14,7 @@ def main():
     st.title('CSV Data Table')
 
     # URL of the raw CSV file on GitHub
-    csv_url = 'https://github.com/ap3j/streamlit123/blob/main/salaries_cyber.csv'
+    csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
     # Read the CSV file into a DataFrame
     df = pd.read_csv(csv_url, nrows=100,encoding='utf-8',na_values=['NA', ''])  # Read first 100 rows
