@@ -12,6 +12,18 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 
 """
 # Function to render different pages based on user selection
+
+def main():
+    st.sidebar.title("Navigation")
+    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact"])
+
+    if page == "Home":
+        render_home()
+    elif page == "Section 1":
+        render_cybersalaries()
+    elif page == "Section 2":
+        render_contact()
+
 def render_home():
     st.title("Home Page")
     st.write("This is the home page content.")
@@ -90,16 +102,7 @@ def render_contact():
     st.write("Contact me at ap3j@mtmail.mtsu.edu")
    
 
-# Create a sidebar navigation
-nav_selection = st.sidebar.radio("Navigate", ["Home", "Cyber Salaries", "Contact"])
 
-# Render the selected page
-if nav_selection == "Home":
-    render_home()
-elif nav_selection == "About":
-    render_cybersalaries()
-elif nav_selection == "Contact":
-    render_contact()
 
 
 
