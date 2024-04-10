@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 
 """
 # Welcome to my Streamlit page!
-I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
-I hope you get some useful insights fromy my dashboards and visualizations!
+
 
 """
 # Function to render different pages based on user selection
@@ -26,7 +25,8 @@ def main1():
         
 def render_home():
     st.title("Home Page")
-    st.write("This is the home page content.")
+    st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
+I hope you get some useful insights fromy my dashboards and visualizations!")
    
 # Function to render About page content
 def render_cybersalaries():
