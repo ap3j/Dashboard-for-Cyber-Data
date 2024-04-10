@@ -15,14 +15,7 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 def render_home():
     st.title("Home Page")
     st.write("This is the home page content.")
-    st.code("""
-    # Python code example
-    def greet():
-        print("Hello, world!")
-    
-    greet()
-    """)
-
+   
 # Function to render About page content
 def render_cybersalaries():
     st.title("About Page")
@@ -88,20 +81,12 @@ def bar2():
 if __name__ == "__main__":
     bar2()
     
-    """)
-
 # Function to render Contact page content
+
 def render_contact():
     st.title("Contact Page")
     st.write("This is the contact page content.")
-    st.code("""
-    # Yet another Python code example
-    def multiply(a, b):
-        return a * b
-    
-    result = multiply(4, 6)
-    print("Result:", result)
-    """)
+   
 
 # Create a sidebar navigation
 nav_selection = st.sidebar.radio("Navigate", ["Home", "Cyber Salaries", "Contact"])
