@@ -23,15 +23,15 @@ def render_cybersalaries():
   
     def main():
     # URL of the raw CSV file on GitHub
-    csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
+        csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+        df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
 
-    # Display the DataFrame as a data table
-    st.write(df)
+        # Display the DataFrame as a data table
+        st.write(df)
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     main()
 
 def bar():
