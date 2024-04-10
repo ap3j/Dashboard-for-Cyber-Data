@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
 def render_contact():
     st.title("Contact Page")
-    st.write("This is the contact page content.")
+    st.write("Contact me at ap3j@mtmail.mtsu.edu")
    
 
 # Create a sidebar navigation
