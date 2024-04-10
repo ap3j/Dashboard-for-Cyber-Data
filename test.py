@@ -24,7 +24,7 @@ def render_home():
     """)
 
 # Function to render About page content
-def render_cyber():
+def render_cybersalaries():
     st.title("About Page")
     st.write("This is the about page content.")
     st.code("""
@@ -50,13 +50,13 @@ def render_contact():
     """)
 
 # Create a sidebar navigation
-nav_selection = st.sidebar.radio("Navigate", ["Home", "About", "Contact"])
+nav_selection = st.sidebar.radio("Navigate", ["Home", "Cyber Salaries", "Contact"])
 
 # Render the selected page
 if nav_selection == "Home":
     render_home()
 elif nav_selection == "About":
-    render_about()
+    render_cybersalaries()
 elif nav_selection == "Contact":
     render_contact()
 
