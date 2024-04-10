@@ -56,7 +56,7 @@ def bar2():
     # Sample data
     data = {
         'Value': [315000, 295000, 260000, 237000,235540],
-        'Job Title': 'Category': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
+        'Job Title': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
                      'Principal Applicaiton Security Engineer','Software Security Engineer']
     }
 
