@@ -2,7 +2,8 @@ import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
-
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 """
@@ -27,7 +28,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-def main():
+def bar():
     st.title('Salary By Experience')
     
     # Sample data
@@ -48,6 +49,6 @@ def main():
     st.pyplot(fig)
 
 if __name__ == "__main__":
-    main()
+    bar()
 
 
