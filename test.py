@@ -17,11 +17,11 @@ def main():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact"])
 
-    if page == "Home":
+    if page == "Home Page":
         render_home()
-    elif page == "Section 1":
+    elif page == "Cyber Salaries":
         render_cybersalaries()
-    elif page == "Section 2":
+    elif page == "Contact Page":
         render_contact()
         
 if __name__ == "__main__":
@@ -33,7 +33,7 @@ def render_home():
    
 # Function to render About page content
 def render_cybersalaries():
-    st.title("About Page")
+    st.title("Cyber Salaries")
     st.write("This is the about page content.")
   
 def main():
