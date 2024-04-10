@@ -11,6 +11,24 @@ I am a data science student at Middle Tennessee State University where I special
 I hope you get some useful insights fromy my dashboards and visualizations!
 
 """
+# Function to render different pages based on user selection
+def render_page(page):
+    if page == "Home":
+        st.title("Welcome to the Home Page!")
+        st.write("This is the home page content.")
+    elif page == "About":
+        st.title("About Page")
+        st.write("This is the about page content.")
+    elif page == "Contact":
+        st.title("Contact Page")
+        st.write("This is the contact page content.")
+
+# Create a sidebar navigation
+nav_selection = st.sidebar.selectbox("Navigate", ["Home", "About", "Contact"])
+
+# Render the selected page
+render_page(nav_selection)
+
 
 def main():
     st.title('Cyber Security Salaries')
