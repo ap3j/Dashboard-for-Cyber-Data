@@ -44,8 +44,8 @@ def main2():
         # Display the DataFrame as a data table
     st.write(df)
     
-if __name__ == "__main2__":
-    main2()
+    if __name__ == "__main__":
+        main2()
 
 def bar():
     st.title('Salary By Experience')
