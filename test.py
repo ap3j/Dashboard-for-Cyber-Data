@@ -15,8 +15,7 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 def render_page(page):
     if page == "Home":
         st.title("Welcome to the Home Page!")
-        st.write("Welcome to my Streamlit page!
-I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
+        st.write("Welcome to my Streamlit page! I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
 I hope you get some useful insights fromy my dashboards and visualizations!")
     elif page == "About":
         st.title("About Page")
