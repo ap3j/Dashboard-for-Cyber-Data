@@ -32,7 +32,7 @@ def render_cybersalaries():
         st.write(df)
 
         if __name__ == "__main__":
-        main()
+            main()
 
     def bar():
         st.title('Salary By Experience')
