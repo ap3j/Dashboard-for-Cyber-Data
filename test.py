@@ -5,7 +5,28 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+def bar():
+    st.title('Salary By Experience')
+    
+    # Sample data
+    data = {
+        'Category': ['EN', 'MI', 'SN', 'EX'],
+        'Value': [63579, 103337, 144560, 200706]
+    }
 
+    # Create DataFrame
+    df_topsal = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+    fig, ax = plt.subplots()
+    sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
+    ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+    st.pyplot(fig)
+
+if __name__ == "__main__":
+    bar()
 """
 # Welcome to my Streamlit page!
 I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
@@ -51,4 +72,36 @@ def bar():
 if __name__ == "__main__":
     bar()
 
+def bar2():
+    st.title('Salary By Job Title Top 10')
+    
+    # Sample data
+    data = {
+        'Category': ['def bar():
+    st.title('Salary By Experience')
+    
+    # Sample data
+    data = {
+        'Category': ['def bar():
+    st.title('Salary By Experience')
+    
+    # Sample data
+    data = {
+        'Category': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
+                     'Principal Applicaiton Security Engineer','Software Security Engineer'],
+        'Value': [315000, 295000, 260000, 237000,235540]
+    }
 
+    # Create DataFrame
+    df_topsal = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+    fig, ax = plt.subplots()
+    sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
+    ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+    st.pyplot(fig)
+
+if __name__ == "__main__":
+    bar2()
