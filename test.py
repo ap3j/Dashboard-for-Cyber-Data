@@ -17,7 +17,7 @@ def main():
     csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
 
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(csv_url, nrows=100,encoding='utf-8',na_values=['NA', ''])  # Read first 100 rows
+    df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
 
     # Display the DataFrame as a data table
     st.write(df)
