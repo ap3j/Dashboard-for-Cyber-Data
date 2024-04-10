@@ -23,6 +23,9 @@ def main():
         render_cybersalaries()
     elif page == "Section 2":
         render_contact()
+        
+if __name__ == "__main__":
+    main()
 
 def render_home():
     st.title("Home Page")
