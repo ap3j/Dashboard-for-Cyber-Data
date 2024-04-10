@@ -35,11 +35,11 @@ def main():
     }
 
     # Create DataFrame
-    df = pd.DataFrame(data)
+    df_topsal = pd.DataFrame(data)
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
-    sns.barplot(x='Category', y='Value', data=df, ax=ax)
+    sns.barplot(x='Category', y='Value', data=df_topsal, ax=ax)
     ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
