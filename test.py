@@ -33,8 +33,8 @@ def main():
         # Display the DataFrame as a data table
     st.write(df)
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
 
 def bar():
     st.title('Salary By Experience')
@@ -56,8 +56,8 @@ def bar():
     # Display the plot in Streamlit
     st.pyplot(fig)
 
-    if __name__ == "__main__":
-        bar()
+if __name__ == "__main__":
+    bar()
 
 def bar2():
     st.title('Salary By Job Title Top 5')
