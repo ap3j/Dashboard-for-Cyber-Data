@@ -73,17 +73,7 @@ if __name__ == "__main__":
     bar()
 
 def bar2():
-    st.title('Salary By Job Title Top 10')
-    
-    # Sample data
-    data = {
-        'Category': ['def bar():
-    st.title('Salary By Experience')
-    
-    # Sample data
-    data = {
-        'Category': ['def bar():
-    st.title('Salary By Experience')
+    st.title('Salary By Job Title Top 5')
     
     # Sample data
     data = {
