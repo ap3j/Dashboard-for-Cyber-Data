@@ -55,13 +55,13 @@ def bar2():
     
     # Sample data
     data = {
-        'Category': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
-                     'Principal Applicaiton Security Engineer','Software Security Engineer'],
-        'Value': [315000, 295000, 260000, 237000,235540]
+        'Value': [315000, 295000, 260000, 237000,235540],
+        'Job Title': 'Category': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
+                     'Principal Applicaiton Security Engineer','Software Security Engineer']
     }
 
     # Create DataFrame
-    df_topsal = pd.DataFrame(data)
+    df_topsal5 = pd.DataFrame(data)
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
