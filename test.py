@@ -24,7 +24,7 @@ def render_home():
     """)
 
 # Function to render About page content
-def render_about():
+def render_cyber():
     st.title("About Page")
     st.write("This is the about page content.")
     st.code("""
