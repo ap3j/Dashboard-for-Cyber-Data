@@ -17,7 +17,7 @@ def render_page(page):
         st.title("Welcome to the Home Page!")
         st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. I hope you get some useful insights fromy my dashboards and visualizations!")
     elif page == "Cyber Salaries":
-        st.title("About Page")
+        st.title("Cyber Salaries")
         st.write("This is the about page content.")
         st.code("""
   if __name__ == "__main__":
