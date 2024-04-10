@@ -30,8 +30,8 @@ def main():
     
     # Sample data
     data = {
-        'Category': ['A', 'B', 'C', 'D'],
-        'Value': [10, 20, 15, 25]
+        'Category': ['EN', 'MI', 'SN', 'EX'],
+        'Value': [63579, 103337, 144560, 200706]
     }
 
     # Create DataFrame
