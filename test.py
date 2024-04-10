@@ -13,7 +13,7 @@ I hope you get some useful insights fromy my dashboards and visualizations!
 """
 # Function to render different pages based on user selection
 
-def main():
+def main1():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact"])
 
@@ -25,7 +25,7 @@ def main():
         render_contact()
         
 if __name__ == "__main__":
-    main()
+    main1()
 
 def render_home():
     st.title("Home Page")
@@ -36,7 +36,7 @@ def render_cybersalaries():
     st.title("Cyber Salaries")
     st.write("This is the about page content.")
   
-def main():
+def main2():
     st.title('Cyber Salaries')
     
     # URL of the raw CSV file on GitHub
@@ -49,7 +49,7 @@ def main():
     st.write(df)
 
 if __name__ == "__main__":
-    main()
+    main2()
 
 def bar():
     st.title('Salary By Experience')
