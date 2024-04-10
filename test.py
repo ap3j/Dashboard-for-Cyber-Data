@@ -9,4 +9,6 @@ I am a data science student at Middle Tennessee State University where I special
 I hope you get some useful insights fromy my dashboards and visualizations!
 
 """
-data = pd.read_csv_("salaries_cyber.csv")
+csv_url = 'https://github.com/ap3j/streamlit123/blob/main/salaries_cyber.csv'
+
+data = pd.read_csv_("csv_url")
