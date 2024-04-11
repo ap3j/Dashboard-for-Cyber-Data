@@ -25,10 +25,10 @@ def main1():
         
 def render_home():
     st.title("Home Page")
-    st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain. 
-    I hope you get some useful insights fromy my dashboards and visualizations")
+    st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain.")
    
 # Function to render About page content
+
 def render_cybersalaries():
     st.title("Cyber Salaries")
     st.write("Salary Graphs and Visualizations Below")
@@ -67,7 +67,9 @@ def render_cybersalaries():
 
     # Display the plot in Streamlit
         st.pyplot(fig)
-
+   
+    if __name__ == "__main__":
+     bar()
 
 def bar2():
     st.title('Salary By Job Title Top 5')
