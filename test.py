@@ -14,11 +14,13 @@ import matplotlib.pyplot as plt
 
 def main1():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact Page"])
+    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Data Breaches", "Contact Page"])
 
     if page == "Home":
         render_home()
     elif page == "Cyber Salaries":
+        render_cybersalaries()
+    elif page == "Data Breaches":
         render_cybersalaries()
     elif page == "Contact Page":
         render_contact()
@@ -93,7 +95,9 @@ def bar2():
     # Display the plot in Streamlit
     st.pyplot(fig)
 
-
+def render_databreach():
+    st.title("Data Breach")
+    st.write("Databreach Graphs and Visualizations Below")
     
 # Function to render Contact page content
 
