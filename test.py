@@ -21,7 +21,7 @@ def main1():
     elif page == "Cyber Salaries":
         render_cybersalaries()
     elif page == "Data Breaches":
-        render_cybersalaries()
+        render_databreach()
     elif page == "Contact Page":
         render_contact()
         
