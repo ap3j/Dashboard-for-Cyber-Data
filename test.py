@@ -28,7 +28,7 @@ def main1():
 def render_home():
     st.title("Home Page")
     st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain.")
-
+    st.write("Hi")
   
 # Function to render About page content
 
