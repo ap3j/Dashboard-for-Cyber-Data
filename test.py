@@ -28,7 +28,7 @@ def render_home():
     st.write("I am a data science student at Middle Tennessee State University where I specialzie in the cyber security domain.")
 
     if __name__ == "__main__":
-    main1()
+        main1()
    
 # Function to render About page content
 
