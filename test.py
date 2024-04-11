@@ -102,6 +102,23 @@ def render_cybersalaries():
 def render_databreach():
     st.title("Data Breach")
     st.write("Databreach Graphs and Visualizations Below")
+
+    def main3():
+        st.title('Databreach Dataset')
+    
+    # URL of the raw CSV file on GitHub
+        csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/df_1.csv'
+
+    # Read the CSV file into a DataFrame
+        df = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+
+        # Display the DataFrame as a data table
+        st.write(df)
+    
+    if __name__ == "__main__":
+     main3()
+
+
     
 # Function to render Contact page content
 
