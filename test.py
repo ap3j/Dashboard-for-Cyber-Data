@@ -95,6 +95,10 @@ def render_cybersalaries():
     # Display the plot in Streamlit
         st.pyplot(fig)
 
+    if __name__ == "__main__":
+     bar2()
+
+
 def render_databreach():
     st.title("Data Breach")
     st.write("Databreach Graphs and Visualizations Below")
