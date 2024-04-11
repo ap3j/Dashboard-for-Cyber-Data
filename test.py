@@ -16,7 +16,7 @@ def main1():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Contact Page"])
 
-    if page == "Home Page":
+    if page == "Home":
         render_home()
     elif page == "Cyber Salaries":
         render_cybersalaries()
