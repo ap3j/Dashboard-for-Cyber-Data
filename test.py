@@ -37,7 +37,7 @@ def render_cybersalaries():
     st.write("Salary Graphs and Visualizations Below")
   
     def main2():
-        st.title('Cyber Salaries')
+        st.title('Cyber Salaries Dataset')
     
     # URL of the raw CSV file on GitHub
         csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
@@ -74,26 +74,26 @@ def render_cybersalaries():
     if __name__ == "__main__":
      bar()
 
-def bar2():
-    st.title('Salary By Job Title Top 5')
+    def bar2():
+        st.title('Salary By Job Title Top 5')
     
     # Sample data
-    data = {
-        'Value': [315000, 295000, 260000, 237000,235540],
-        'Job Title': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
+        data = {
+            'Value': [315000, 295000, 260000, 237000,235540],
+            'Job Title': ['Application Security Architect', 'Staff Security Engineer', 'Threat Intellgience Response Analyst', 
                      'Principal Applicaiton Security Engineer','Software Security Engineer']
-    }
+        }
 
     # Create DataFrame
-    df_topsal15 = pd.DataFrame(data)
+        df_topsal15 = pd.DataFrame(data)
 
     # Create Seaborn bar plot
-    fig, ax = plt.subplots()
-    sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
-    ax.set_title('Bar Plot')
+        fig, ax = plt.subplots()
+        sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
+        ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
-    st.pyplot(fig)
+        st.pyplot(fig)
 
 def render_databreach():
     st.title("Data Breach")
