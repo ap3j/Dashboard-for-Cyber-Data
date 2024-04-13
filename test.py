@@ -30,7 +30,7 @@ def render_home():
     st.write("I am a data science student at Middle Tennessee State University where I cyber security as my data domain.")
     st.write("I hope you find my analysis and inights useful!")
     
-    st.image("
+   
 # Function to render About page content
 
 def render_cybersalaries():
