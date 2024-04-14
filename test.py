@@ -29,8 +29,8 @@ def main1():
         
 def render_home():
     st.title("Home Page")
-    st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain. On average, a cyber attack occurs every 39 seeconds affecting 1 out of three Americans. The average cost of a databreach is 3 to 4 million USD. Cyber security is a wrothwhile investment for any organization.")
-    st.write("My streamlit page looks at salaries of cyber security professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
+    st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain. On average, a cyber attack occurs every 39 seconds affecting 1 out of three Americans. The average cost of a databreach is 3 to 4 million USD. Cyber security is a worthwhile investment for most organizations.")
+    st.write("My streamlit page examines these cyebr security problems. I looks at salaries of cyber security professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
     st.write("Credits to these three Kaggle sources for providing the datasets!")
  # Create a hyperlink
     st.markdown('[Cyber Salaries from Deep Contractor](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries)')
