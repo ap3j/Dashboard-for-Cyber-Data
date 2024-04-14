@@ -119,7 +119,7 @@ def render_databreach():
     if __name__ == "__main__":
      main3()
 
- def bar4():
+    def bar4():
         st.title('Top 5 Industries for Databreaches')
     
     # Sample data
