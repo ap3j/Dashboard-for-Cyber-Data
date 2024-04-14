@@ -123,16 +123,14 @@ def render_databreach():
         st.title('Top 5 Industries for Databreaches')
     
     # Sample data
-        data = {'Value': [53, 47, 38, 30,27],
-            'Job Title': ['Web', 'Healthcare', 'Financial', 
-                     'Government','Retail']}
+        data = {'Value': [53, 47, 38, 30,27],'Job Title': ['Web', 'Healthcare', 'Financial', 'Government','Retail']}
 
     # Create DataFrame
-    df = pd.DataFrame(data)
+    df_breach = pd.DataFrame(data)
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
-    sns.barplot(x='Value', y='Job Title', data=df, ax=ax)
+    sns.barplot(x='Value', y='Job Title', data=df_breach, ax=ax)
     ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
@@ -148,7 +146,9 @@ def render_contact():
     st.title("Contact Page")
     st.write("Contact me at ap3j@mtmail.mtsu.edu")
 
-
+if __name__ == "__main__":
+    main1()
+   
 
 
 
