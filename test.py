@@ -27,8 +27,8 @@ def main1():
         
 def render_home():
     st.title("Home Page")
-    st.write("I am a data science student at Middle Tennessee State University where I cyber security as my data domain.")
-    st.write("I hope you find my analysis and inights useful!")
+    st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain.")
+    st.write("My streamlit page looks at salaries of cyber secuirty professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
     
    
 # Function to render About page content
