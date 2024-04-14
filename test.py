@@ -119,8 +119,29 @@ def render_databreach():
     if __name__ == "__main__":
      main3()
 
-df_databreach_topsector_method=df_databreach[['Organization type', 'Method']]
-df_databreach_topsector_method
+ def bar4():
+        st.title('Top 5 Industries for Databreaches')
+    
+    # Sample data
+        data = {
+            'Value': [53, 47, 38, 30,27],
+            'Job Title': ['Web', 'Healthcare', 'Financial', 
+                     'Government','Retail']
+        }
+
+    # Create DataFrame
+        df_topsal15 = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+        fig, ax = plt.subplots()
+        sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
+        ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+        st.pyplot(fig)
+
+    if __name__ == "__main__":
+     bar4()
 
     
 # Function to render Contact page content
