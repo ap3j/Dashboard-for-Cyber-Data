@@ -35,7 +35,7 @@ def render_home():
 
 def render_cybersalaries():
     st.title("Cyber Salaries")
-    st.write("Salary Graphs and Visualizations Below")
+    st.write("Cyber security salaries are important to understand market trends and movement for when hiring cyber security staff. Visualization and graphs below.")
   
     def main2():
         st.title('Dataset')
@@ -102,7 +102,7 @@ def render_cybersalaries():
 
 def render_databreach():
     st.title("Data Breach")
-    st.write("Databreach Graphs and Visualizations Below")
+    st.write("Databreaches are significant because attackers can retrieve and encrpyt sensitive data. Graphs and Visualizations Below")
 
     def main3():
         st.title('Dataset')
