@@ -38,7 +38,7 @@ def render_cybersalaries():
     st.write("Salary Graphs and Visualizations Below")
   
     def main2():
-        st.title('Cyber Salaries Dataset')
+        st.title('Dataset')
     
     # URL of the raw CSV file on GitHub
         csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/salaries_cyber.csv'
@@ -105,7 +105,7 @@ def render_databreach():
     st.write("Databreach Graphs and Visualizations Below")
 
     def main3():
-        st.title('Databreach Dataset')
+        st.title('Dataset')
     
     # URL of the raw CSV file on GitHub
         csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/df_1.csv'
