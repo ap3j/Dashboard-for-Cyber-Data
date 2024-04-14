@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 def main1():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Data Breaches", "Contact Page"])
+    page = st.sidebar.radio("Go to", ["Home", "Cyber Salaries", "Data Breaches","Malware", "Contact Page"])
 
     if page == "Home":
         render_home()
@@ -22,6 +22,8 @@ def main1():
         render_cybersalaries()
     elif page == "Data Breaches":
         render_databreach()
+    elif page == "Malware":
+        render_malware()
     elif page == "Contact Page":
         render_contact()
         
@@ -164,6 +166,27 @@ def render_databreach():
 
     
 # Function to render Contact page content
+
+def render_malware():
+    st.title("Malware")
+    st.write("Malware and malware traffic are important to understand as a cybersecurity professional. Visualization and graphs below.")
+
+    def main4():
+        st.title('Dataset')
+    
+    # URL of the raw CSV file on GitHub
+        csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/CTU-IoT-Malware-Capture-3-1conn.log.labeled.csv'
+
+    # Read the CSV file into a DataFrame
+        df= pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+
+        # Display the DataFrame as a data table
+        st.write(df)
+    
+    if __name__ == "__main__":
+     main4()
+
+
 
 def render_contact():
     st.title("Contact Page")
