@@ -144,7 +144,7 @@ def render_databreach():
     
     # Sample data
         data = {
-            'Category': ['Hacked', 'Poor Security', 'Lost/Stolen Media', 'Accidental Publish'],
+            'Category': ['Hacked', 'Poor Security', 'Stolen Media', 'Accidental Publish'],
             'Value': [192, 43, 33, 21]
         }
 
