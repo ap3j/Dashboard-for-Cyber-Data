@@ -29,7 +29,7 @@ def main1():
         
 def render_home():
     st.title("Home Page")
-    st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain.")
+    st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain. It's estimated that a cyber attack occurs every 39 seconds on average, affecting one in three Americans each year.")
     st.write("My streamlit page looks at salaries of cyber security professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
     st.write("Credits to these three Kaggle sources for providing the datasets!")
  # Create a hyperlink
