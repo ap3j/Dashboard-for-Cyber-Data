@@ -126,7 +126,7 @@ def render_databreach():
         data = {'Value': [53, 47, 38, 30,27],'Job Title': ['Web', 'Healthcare', 'Financial', 'Government','Retail']}
 
     # Create DataFrame
-    df_breach = pd.DataFrame(data)
+        df_breach = pd.DataFrame(data)
 
     # Create Seaborn bar plot
         fig, ax = plt.subplots()
