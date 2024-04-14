@@ -201,7 +201,7 @@ def render_malware():
 
     # Create Seaborn bar plot
         fig, ax = plt.subplots()
-        sns.barplot(x='Value', y='Job Title', data=df_topip, ax=ax)
+        sns.barplot(x='Value', y='IP Addresses', data=df_topip, ax=ax)
         ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
@@ -221,7 +221,7 @@ def render_malware():
 
     # Create Seaborn bar plot
         fig, ax = plt.subplots()
-        sns.barplot(x='Category', y='Value', data=df_topports, ax=ax)
+        sns.barplot(x='Ports', y='Value', data=df_topports, ax=ax)
         ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
