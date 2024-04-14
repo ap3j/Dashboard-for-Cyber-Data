@@ -191,7 +191,7 @@ def render_malware():
     
     # Sample data
         data = {
-            '# of malicious traffic': [23295, 77, 76, 76,76],
+            'Value': [23295, 77, 76, 76,76],
             'IP Addresses': ['200.168.87.203', '148.251.4.51', '182.253.179.62', 
                      '203.242.197.223','144.76.156.49']
         }
@@ -214,7 +214,7 @@ def render_malware():
         st.title('Top three ports for attacks')
     
     # Sample data
-        data = {'Ports': ['22', '59353', '2407'],'Malicious traffic': [128264, 23295, 8]}
+        data = {'Ports': ['22', '59353', '2407'],'Value': [128264, 23295, 8]}
 
         # Create DataFrame
         df_topports = pd.DataFrame(data)
