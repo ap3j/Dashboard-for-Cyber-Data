@@ -123,25 +123,23 @@ def bar4():
     st.title('Top 5 Industries for Databreaches')
     
     # Sample data
-        data = {
-            'Value': [53, 47, 38, 30,27],
+    data = {'Value': [53, 47, 38, 30,27],
             'Job Title': ['Web', 'Healthcare', 'Financial', 
-                     'Government','Retail']
-        }
+                     'Government','Retail']}
 
     # Create DataFrame
-        df_topsal15 = pd.DataFrame(data)
+    df_topsal15 = pd.DataFrame(data)
 
     # Create Seaborn bar plot
-        fig, ax = plt.subplots()
-        sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
-        ax.set_title('Bar Plot')
+    fig, ax = plt.subplots()
+    sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
+    ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
-        st.pyplot(fig)
+    st.pyplot(fig)
 
     if __name__ == "__main__":
-        bar4()
+    bar4()
 
     
 # Function to render Contact page content
