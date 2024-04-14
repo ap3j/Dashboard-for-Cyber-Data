@@ -33,8 +33,9 @@ def render_home():
     st.write("My streamlit page looks at salaries of cyber security professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
     st.write("Credits to these three Kaggle sources for providing the datasets!")
  # Create a hyperlink
-    st.markdown('[Cyber Salaries from Deep COntractor](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries)')
-    
+    st.markdown('[Cyber Salaries from Deep Contractor](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries)')
+    st.markdown('[Data Breaches from The Devastator](https://www.kaggle.com/datasets/thedevastator/data-breaches-a-comprehensive-list)')
+    st.markdown('[Malware Detection from Agung Pambudi](https://www.kaggle.com/datasets/agungpambudi/network-malware-detection-connection-analysis)')
    
 # Function to render About page content
 
