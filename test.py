@@ -186,6 +186,30 @@ def render_malware():
     if __name__ == "__main__":
      main4()
 
+    def bar6():
+        st.title('Top 5 Malicious IP Addresses')
+    
+    # Sample data
+        data = {
+            'Value': [23295, 77, 76, 76,76],
+            'Job Title': ['200.168.87.203', '148.251.4.51', '182.253.179.62', 
+                     '203.242.197.223','144.76.156.49']
+        }
+
+    # Create DataFrame
+        df_topip = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+        fig, ax = plt.subplots()
+        sns.barplot(x='Value', y='Job Title', data=df_topip, ax=ax)
+        ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+        st.pyplot(fig)
+
+    if __name__ == "__main__":
+     bar6()
+
 
 
 def render_contact():
