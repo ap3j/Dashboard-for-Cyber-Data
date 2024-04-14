@@ -129,12 +129,12 @@ def render_databreach():
     df_breach = pd.DataFrame(data)
 
     # Create Seaborn bar plot
-    fig, ax = plt.subplots()
-    sns.barplot(x='Value', y='Job Title', data=df_breach, ax=ax)
-    ax.set_title('Bar Plot')
+        fig, ax = plt.subplots()
+        sns.barplot(x='Value', y='Job Title', data=df_breach, ax=ax)
+        ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
-    st.pyplot(fig)
+        st.pyplot(fig)
 
     if __name__ == "__main__":
         bar4()
