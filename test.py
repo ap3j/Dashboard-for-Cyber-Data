@@ -148,9 +148,7 @@ def render_contact():
     st.title("Contact Page")
     st.write("Contact me at ap3j@mtmail.mtsu.edu")
 
-if __name__ == "__main__":
-    main1()
-   
+
 
 
 
