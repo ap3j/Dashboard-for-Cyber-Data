@@ -119,16 +119,16 @@ def render_databreach():
     if __name__ == "__main__":
      main3()
 
-def bar4():
-    st.title('Top 5 Industries for Databreaches')
+    def bar4():
+        st.title('Top 5 Industries for Databreaches')
     
     # Sample data
-    data = {'Value': [53, 47, 38, 30,27],
+        data = {'Value': [53, 47, 38, 30,27],
             'Job Title': ['Web', 'Healthcare', 'Financial', 
                      'Government','Retail']}
 
     # Create DataFrame
-    df_topsal15 = pd.DataFrame(data)
+    df = pd.DataFrame(data)
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
