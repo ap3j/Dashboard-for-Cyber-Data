@@ -178,7 +178,7 @@ def render_malware():
         csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/CTU-IoT-Malware-Capture-3-1conn.log.labeled.csv'
 
     # Read the CSV file into a DataFrame
-        df= pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+        df= pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', ''], sep='|') 
 
         # Display the DataFrame as a data table
         st.write(df)
