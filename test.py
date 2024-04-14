@@ -102,7 +102,7 @@ def render_cybersalaries():
 
 def render_databreach():
     st.title("Data Breach")
-    st.write("Databreaches are significant because attackers can retrieve and encrpyt sensitive data. Graphs and Visualizations Below")
+    st.write("Databreaches are significant because attackers can retrieve and encrpyt sensitive data. Graphs and Visualizations are shown below.")
 
     def main3():
         st.title('Dataset')
