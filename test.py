@@ -210,6 +210,30 @@ def render_malware():
     if __name__ == "__main__":
      bar6()
 
+    def bar7():
+        st.title('Top three ports for attacks')
+    
+    # Sample data
+        data = {
+            'Category': ['22', '59353', '2407'],
+            'Value': [128264, 23295, 8]
+        }
+
+        # Create DataFrame
+        df_topports = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+        fig, ax = plt.subplots()
+        sns.barplot(x='Category', y='Value', data=df_topports, ax=ax)
+        ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+        st.pyplot(fig)
+   
+    if __name__ == "__main__":
+     bar7()
+
+
 
 
 def render_contact():
