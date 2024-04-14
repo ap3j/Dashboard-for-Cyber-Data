@@ -31,6 +31,11 @@ def render_home():
     st.title("Home Page")
     st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain. On average, a cyber attack occurs every 39 seconds affecting 1 out of three Americans. The average cost of a databreach is 3 to 4 million USD. Cyber security is a worthwhile investment for most organizations.")
     st.write("My streamlit page examines these cyber security problems. I looks at salaries of cyber security professionals, databreaches, and network attacks. I hope to take this analysis and form a hypothetical company, Secure Sentinel Shield(S3). I hope you find my analysis and inights useful!")
+    url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/Secure%20Sentinel%20Shield.webp'
+
+# Display the image using Streamlit
+    st.image(url, caption='Image hosted on GitHub')
+    
     st.write("Credits to these three Kaggle sources for providing the datasets!")
  # Create a hyperlink
     st.markdown('[Cyber Salaries from Deep Contractor](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries)')
