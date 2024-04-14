@@ -111,7 +111,7 @@ def render_databreach():
         csv_url = 'https://raw.githubusercontent.com/ap3j/streamlit123/main/df_1.csv'
 
     # Read the CSV file into a DataFrame
-        df_databreach = pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
+        df= pd.read_csv(csv_url, encoding='utf-8',na_values=['NA', '']) 
 
         # Display the DataFrame as a data table
         st.write(df)
