@@ -139,6 +139,29 @@ def render_databreach():
     if __name__ == "__main__":
         bar4()
 
+    def bar5():
+        st.title('Top Methods Used By Attackers')
+    
+    # Sample data
+        data = {
+            'Category': ['Hacked', 'Poor Security', 'Lost/Stolen Media', 'Accidental Publish'],
+            'Value': [192, 43, 33, 21]
+        }
+
+        # Create DataFrame
+        df_topmeth = pd.DataFrame(data)
+
+    # Create Seaborn bar plot
+        fig, ax = plt.subplots()
+        sns.barplot(x='Category', y='Value', data=df_topmeth, ax=ax)
+        ax.set_title('Bar Plot')
+
+    # Display the plot in Streamlit
+        st.pyplot(fig)
+   
+    if __name__ == "__main__":
+     bar5()
+
     
 # Function to render Contact page content
 
