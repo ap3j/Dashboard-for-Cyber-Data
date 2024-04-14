@@ -139,7 +139,7 @@ def bar4():
     st.pyplot(fig)
 
     if __name__ == "__main__":
-    bar4()
+        bar4()
 
     
 # Function to render Contact page content
