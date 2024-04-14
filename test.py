@@ -191,8 +191,8 @@ def render_malware():
     
     # Sample data
         data = {
-            'Value': [23295, 77, 76, 76,76],
-            'Job Title': ['200.168.87.203', '148.251.4.51', '182.253.179.62', 
+            '# of malicious traffic': [23295, 77, 76, 76,76],
+            'IP Addresses': ['200.168.87.203', '148.251.4.51', '182.253.179.62', 
                      '203.242.197.223','144.76.156.49']
         }
 
@@ -215,8 +215,8 @@ def render_malware():
     
     # Sample data
         data = {
-            'Category': ['22', '59353', '2407'],
-            'Value': [128264, 23295, 8]
+            'Ports': ['22', '59353', '2407'],
+            '# of malicious traffic': [128264, 23295, 8]
         }
 
         # Create DataFrame
