@@ -46,7 +46,7 @@ def render_home():
 
 def render_cybersalaries():
     st.title("Cyber Salaries")
-    st.write("Cyber security salaries are important to understand market trends and movement for when hiring cyber security staff. Visualization and graphs below.")
+    st.write("Cyber security salaries are important to understand market trends and movement for when hiring cyber security staff. An effective team should compromise of mostly mid level employees with a sprinkle of senior experience level with the ocassional entry level employee. Visualization and graphs below.")
   
     def main2():
         st.title('Dataset')
@@ -113,7 +113,7 @@ def render_cybersalaries():
 
 def render_databreach():
     st.title("Data Breach")
-    st.write("Databreaches are significant because attackers can retrieve and encrpyt sensitive data. Graphs and Visualizations are shown below.")
+    st.write("Databreaches are significant because attackers can retrieve and encrpyt sensitive data. Specific industries may need more defenses such as healthcare and financial. Graphs and Visualizations are shown below.")
 
     def main3():
         st.title('Dataset')
@@ -178,8 +178,7 @@ def render_databreach():
 
 def render_malware():
     st.title("Malware")
-    st.write("Malware and malware traffic are important to understand as a cybersecurity professional. Visualization and graphs below.")
-
+    st.write("Malware and malware traffic are important to understand as a cybersecurity professional. Destination IP Addressess and Ports show the location and type of service the malware traffic.  Visualization and graphs below.")
     def main4():
         st.title('Dataset')
     
