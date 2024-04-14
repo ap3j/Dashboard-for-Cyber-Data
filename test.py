@@ -214,10 +214,7 @@ def render_malware():
         st.title('Top three ports for attacks')
     
     # Sample data
-        data = {
-            'Ports': ['22', '59353', '2407'],
-            '# of malicious traffic': [128264, 23295, 8]
-        }
+        data = {'Ports': ['22', '59353', '2407'],'# of malicious traffic': [128264, 23295, 8]}
 
         # Create DataFrame
         df_topports = pd.DataFrame(data)
