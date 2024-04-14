@@ -30,7 +30,10 @@ def main1():
 def render_home():
     st.title("Home Page")
     st.write("I am a data science student at Middle Tennessee State University where I specialize in cyber security as my data domain.")
-    st.write("My streamlit page looks at salaries of cyber secuirty professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
+    st.write("My streamlit page looks at salaries of cyber security professionals, databreaches, and network attacks. I hope you find my analysis and inights useful!")
+    st.write("Credits to these three Kaggle sources for providing the datasets!")
+ # Create a hyperlink
+    st.markdown('[Cyber Salaries from Deep COntractor](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries)')
     
    
 # Function to render About page content
