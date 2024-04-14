@@ -132,7 +132,7 @@ def render_databreach():
 
     # Create Seaborn bar plot
     fig, ax = plt.subplots()
-    sns.barplot(x='Value', y='Job Title', data=df_topsal15, ax=ax)
+    sns.barplot(x='Value', y='Job Title', data=df, ax=ax)
     ax.set_title('Bar Plot')
 
     # Display the plot in Streamlit
